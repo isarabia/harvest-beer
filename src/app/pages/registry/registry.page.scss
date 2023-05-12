@@ -1,0 +1,35 @@
+.content {
+    background-color: #ddbda6;
+}
+
+ion-card-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #99460a;
+}
+
+ion-card-content {
+    margin: 5%;
+    font-size: 18px;
+    color: #99460a;
+}
+
+ion-row {
+    justify-content: center;
+    align-content: center;
+}
+
+ion-col {
+    margin: 2%;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.month {
+    border-radius: 60px;
+    background: linear-gradient(145deg, #f8b98b, #d19c75);
+    box-shadow: 20px 20px 40px #c5936f,
+        -20px -20px 40px #ffc796;
+}
