@@ -3,13 +3,29 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** beer **/
+	--ion-color-beer: #d1430d;
+	--ion-color-beer-rgb: 209, 67, 13;
+	--ion-color-beer-contrast: #000000;
+	--ion-color-beer-contrast-rgb: 0, 0, 0;
+	--ion-color-beer-shade: #b83b0b;
+	--ion-color-beer-tint: #d65625;
+
+    /** primary **/
+    --ion-color-primary: #d1430d;
+    --ion-color-primary-rgb: 209, 67, 13;
+    --ion-color-primary-contrast: #000000;
+    --ion-color-primary-contrast-rgb: 0, 0, 0;
+    --ion-color-primary-shade: #b83b0b;
+    --ion-color-primary-tint: #d65625;
+
   /** primary **/
-  --ion-color-primary: #2dd36f;
+/*   --ion-color-primary: #2dd36f;
   --ion-color-primary-rgb: 45, 211, 111;
   --ion-color-primary-contrast: #000000;
   --ion-color-primary-contrast-rgb: 0, 0, 0;
   --ion-color-primary-shade: #28ba62;
-  --ion-color-primary-tint: #42d77d;
+  --ion-color-primary-tint: #42d77d; */
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -83,12 +99,26 @@
    */
 
   body {
-    --ion-color-primary: #2fdf75;
+    --ion-color-beer: #d1430d;
+    --ion-color-beer-rgb: 209, 67, 13;
+    --ion-color-beer-contrast: #ffffff;
+    --ion-color-beer-contrast-rgb: 255,255,255;
+    --ion-color-beer-shade: #b83b0b;
+    --ion-color-beer-tint: #d65625;
+
+    --ion-color-primary: #d1430d;
+    --ion-color-primary-rgb: 209, 67, 13;
+    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary-contrast-rgb: 255,255,255;
+    --ion-color-primary-shade: #b83b0b;
+    --ion-color-primary-tint: #d65625;
+
+/*  --ion-color-primary: #2fdf75;
     --ion-color-primary-rgb: 47, 223, 117;
     --ion-color-primary-contrast: #000000;
     --ion-color-primary-contrast-rgb: 0, 0, 0;
     --ion-color-primary-shade: #29c467;
-    --ion-color-primary-tint: #44e283;
+    --ion-color-primary-tint: #44e283; */
 
     --ion-color-secondary: #50c8ff;
     --ion-color-secondary-rgb: 80,200,255;

@@ -22,52 +22,60 @@ const routes: Routes = [
     loadChildren: () => import('./pages/user/user.module').then(m => m.UserPageModule)
   },
   {
-    path: 'month/enero',
-    loadChildren: () => import('./pages/month/enero/enero.module').then( m => m.EneroPageModule)
+    path: 'month/january',
+    loadChildren: () => import('./pages/months/january/january.module').then( m => m.JanuaryPageModule)
   },
   {
-    path: 'month/febrero',
-    loadChildren: () => import('./pages/month/febrero/febrero.module').then( m => m.FebreroPageModule)
+    path: 'month/february',
+    loadChildren: () => import('./pages/months/february/february.module').then( m => m.FebruaryPageModule)
   },
   {
-    path: 'month/marzo',
-    loadChildren: () => import('./pages/month/marzo/marzo.module').then( m => m.MarzoPageModule)
+    path: 'month/march',
+    loadChildren: () => import('./pages/months/march/march.module').then( m => m.MarchPageModule)
   },
   {
-    path: 'month/abril',
-    loadChildren: () => import('./pages/month/abril/abril.module').then( m => m.AbrilPageModule)
+    path: 'month/april',
+    loadChildren: () => import('./pages/months/april/april.module').then( m => m.AprilPageModule)
   },
   {
-    path: 'month/mayo',
-    loadChildren: () => import('./pages/month/mayo/mayo.module').then( m => m.MayoPageModule)
+    path: 'month/may',
+    loadChildren: () => import('./pages/months/may/may.module').then( m => m.MayPageModule)
   },
   {
-    path: 'month/junio',
-    loadChildren: () => import('./pages/month/junio/junio.module').then( m => m.JunioPageModule)
+    path: 'month/june',
+    loadChildren: () => import('./pages/months/june/june.module').then( m => m.JunePageModule)
   },
   {
-    path: 'month/julio',
-    loadChildren: () => import('./pages/month/julio/julio.module').then( m => m.JulioPageModule)
+    path: 'month/july',
+    loadChildren: () => import('./pages/months/july/july.module').then( m => m.JulyPageModule)
   },
   {
-    path: 'month/agosto',
-    loadChildren: () => import('./pages/month/agosto/agosto.module').then( m => m.AgostoPageModule)
+    path: 'month/august',
+    loadChildren: () => import('./pages/months/august/august.module').then( m => m.AugustPageModule)
   },
   {
-    path: 'month/septiembre',
-    loadChildren: () => import('./pages/month/septiembre/septiembre.module').then( m => m.SeptiembrePageModule)
+    path: 'month/september',
+    loadChildren: () => import('./pages/months/september/september.module').then( m => m.SeptemberPageModule)
   },
   {
-    path: 'month/octubre',
-    loadChildren: () => import('./pages/month/octubre/octubre.module').then( m => m.OctubrePageModule)
+    path: 'month/october',
+    loadChildren: () => import('./pages/months/october/october.module').then( m => m.OctoberPageModule)
   },
   {
-    path: 'month/noviembre',
-    loadChildren: () => import('./pages/month/noviembre/noviembre.module').then( m => m.NoviembrePageModule)
+    path: 'month/november',
+    loadChildren: () => import('./pages/months/november/november.module').then( m => m.NovemberPageModule)
   },
   {
-    path: 'month/diciembre',
-    loadChildren: () => import('./pages/month/diciembre/diciembre.module').then( m => m.DiciembrePageModule)
+    path: 'month/december',
+    loadChildren: () => import('./pages/months/december/december.module').then( m => m.DecemberPageModule)
+  },
+  {
+    path: 'add-beer',
+    loadChildren: () => import('./pages/add-beer/add-beer.module').then( m => m.AddBeerPageModule)
+  },
+  {
+    path: 'beer',
+    loadChildren: () => import('./pages/beer/beer.module').then( m => m.BeerPageModule)
   }
 
 

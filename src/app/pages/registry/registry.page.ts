@@ -10,13 +10,12 @@ import { InfiniteScrollCustomEvent } from '@ionic/angular'
 export class RegistryPage implements OnInit {
 
   constructor(private router:Router) {
-
   }
 
   ngOnInit() {
   }
 
-  redirigir(month : string) {
+  redirectMonth(month : string) {
     this.router.navigate([month]);
   }
 }
