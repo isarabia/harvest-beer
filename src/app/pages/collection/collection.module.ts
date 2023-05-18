@@ -5,13 +5,17 @@ import { FormsModule } from '@angular/forms';
 import { CollectionPage } from './collection.page';
 
 import { CollectionPageRoutingModule } from './collection-routing.module';
+import { ButtonModule } from 'src/app/modules/button/button.module';
+import { CardModule } from 'src/app/modules/card/card.module';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    CollectionPageRoutingModule
+    CollectionPageRoutingModule,
+    ButtonModule,
+    CardModule
   ],
   declarations: [CollectionPage]
 })

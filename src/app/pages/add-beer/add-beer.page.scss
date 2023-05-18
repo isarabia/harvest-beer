@@ -10,6 +10,9 @@ ion-input {
 }
 
 ion-button {
+    font-size: 16px;
+    width: 80%;
+
     --background: #ffc796;
   
     --color: #99460a;
@@ -22,7 +25,31 @@ ion-button {
     --box-shadow: 0 2px 6px 0 #f8b98b;
 }
 
+ion-row {
+    margin: 5%;
+    justify-content: center;
+    align-content: center;
+}
+
+ion-col {
+    text-align: center;
+    padding: 5%;
+    border-radius: 50%;
+    display: inline-block;
+
+    background: #ffc796;
+  
+    color: #99460a;
+  
+    border-radius: 60px;
+    border-color: #f8b98b;
+    border-style: solid;
+    border-width: 0px;
+  
+    box-shadow: 0 2px 6px 0 #f8b98b;
+}
+
 #saveButton {
     text-align: center;
-    margin: 5%;
+    margin: 20%;
 }

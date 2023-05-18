@@ -9,6 +9,7 @@ import { JanuaryPageRoutingModule } from './january-routing.module';
 import { JanuaryPage } from './january.page';
 import { RedirectModule } from 'src/app/modules/redirect/redirect.module';
 import { ButtonModule } from 'src/app/modules/button/button.module';
+import { CardModule } from 'src/app/modules/card/card.module';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ButtonModule } from 'src/app/modules/button/button.module';
     IonicModule,
     JanuaryPageRoutingModule,
     RedirectModule,
-    ButtonModule
+    ButtonModule,
+    CardModule
   ],
   declarations: [JanuaryPage]
 })
